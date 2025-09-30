@@ -1,0 +1,1 @@
+/usr/sbin/c++ -Wl,--dependency-file=CMakeFiles/Renderer.dir/link.d CMakeFiles/Renderer.dir/source/Shader.cpp.o CMakeFiles/Renderer.dir/source/ShaderProgram.cpp.o CMakeFiles/Renderer.dir/source/main.cpp.o -o Renderer  -lglfw -lGLEW -lGL

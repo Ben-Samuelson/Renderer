@@ -47,8 +47,9 @@ int main()
 
     // rendering
 
-    auto vertex = Shader("shaders/Flat.vert", GL_VERTEX_SHADER);
-    auto fragment = Shader("shaders/SolidColor.frag", GL_FRAGMENT_SHADER);
+    auto vertex = Shader("../shaders/Flat.vert", GL_VERTEX_SHADER);
+    std::cout << "here!" << std::endl;
+    auto fragment = Shader("../shaders/SolidColor.frag", GL_FRAGMENT_SHADER);
     auto program = ShaderProgram(vertex, fragment);
 
     float triangle[] = {
